@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #b71c1c; /* Deep red for the header */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #fda4a4; /* Light red for the header */
+    color: #ffffff;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f5f6; /* Very light red */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fcd0d5; /* Light red */
+}
+
+tbody tr:hover {
+    background-color: #ffa7a7; /* Medium light red */
+}
+
+button {
+    background-color: #f7a8a7; /* Light red for buttons */
+    color: #ffffff;
+    border: 1ps solid #db5856;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #db5856; /* Slightly darker light red for hover */
+}
